@@ -1,0 +1,86 @@
+# Gopkg.toml example
+#
+# Refer to https://golang.github.io/dep/docs/Gopkg.toml.html
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+# [[constraint]]
+#   name = "github.com/user/project2"
+#   branch = "dev"
+#   source = "github.com/myfork/project2"
+#
+# [[override]]
+#   name = "github.com/x/y"
+#   version = "2.4.0"
+#
+# [prune]
+#   non-go = false
+#   go-tests = true
+#   unused-packages = true
+
+
+[[constraint]]
+  name = "github.com/pkg/errors"
+  version = "0.8.0"
+
+[[constraint]]
+  name = "gopkg.in/ory-am/dockertest.v3"
+  version = "3.1.7"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/rubenv/sql-migrate"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.0.5"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/Azure/azure-storage-blob-go"
+
+[[constraint]]
+  name = "gopkg.in/go-playground/validator.v9"
+  version = "9.15.0"
+
+
+[[constraint]]
+  name = "github.com/disintegration/imaging"
+  version = "1.4.2"
+
+[[constraint]]
+  version = "0.2"
+  name = "github.com/google/uuid"
+
+[[constraint]]
+  version = "0.0.3"
+  name = "github.com/scorum/scorum-go"
+
+[[constraint]]
+  version = "0.1"
+  name = "github.com/scorum/event-provider-go"
+
+
+[[constraint]]
+  name = "github.com/mongodb/mongo-go-driver"
+  version = "0.0.9"
+
+
+[[constraint]]
+  name = "github.com/golang/mock"
+  version = "1.1.1"
+
+[[constraint]]
+  name = "gitlab.scorum.com/blog/core"
+  version = "v0.0.10"
+  source = "git@gitlab.scorum.com:blog/core.git"
+
+[[constraint]]
+  name = "github.com/appleboy/go-fcm"
+  version = "0.1.1"

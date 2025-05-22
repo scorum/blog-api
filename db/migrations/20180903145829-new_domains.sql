@@ -1,0 +1,15 @@
+-- +migrate Up notransaction
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'fr';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'it';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'com.ua';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'pl';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'ba';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'ph';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'de';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'com.nl';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'id';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'vn';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'ro';
+ALTER TYPE  "domain" ADD VALUE IF NOT EXISTS 'africa';
+
+-- +migrate Down

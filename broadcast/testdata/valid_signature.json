@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "method": "call",
+  "params": [
+    "network_broadcast_api",
+    "broadcast_transaction_synchronous",
+    [
+      {
+        "ref_block_num": 31231,
+        "ref_block_prefix": 434234234,
+        "expiration": "2020-01-01T01:01:01",
+        "operations": [
+          [
+            "follow",
+            {
+              "account": "azucena",
+              "follow": "leonarda"
+            }
+          ]
+        ],
+        "signatures": [
+          "207cf298a29d4bcc6e28660dca35a069137366ae323d02adc7a2ac51e5dfec196411bc82080e2c2b528482723c7432b42bf02efdc263d30a9ec7777c56c7a7e5f6"
+        ]
+      }
+    ]
+  ]
+}

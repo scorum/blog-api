@@ -1,0 +1,29 @@
+# Always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+.idea
+
+# Internal project files and folders
+vendor
+api
+
+# Config files, created in CI
+config.yml
+dbconfig.yml

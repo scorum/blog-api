@@ -1,0 +1,30 @@
+---
+db:
+  write: "host=127.0.0.1 port=5432 user=postgres password=postgres dbname=blog sslmode=disable"
+  read:  "host=127.0.0.1 port=5432 user=readonly password=readonly dbname=blog sslmode=disable"
+log_level: "debug"
+port: "8080"
+blockchain_monitor_enabled: true
+firebase:
+  api_key: ""
+auth_connection: "mongodb://localhost:32769/scorumAuthDev"
+localizer_base_url: "https://scorumtranslations.blob.core.windows.net/blog/dev"
+service:
+  admin: "roselle"
+  notifications_limit: 100
+  unsubscribe_api_jwt_secret: ""
+  max_follow: 1000
+sentry: ""
+blockchain:
+  http: "https://testnet.scorum.com"
+  sync_interval: 1s
+  chain_id: ""
+blob:
+  container: "test"
+  cdn_domain: "https://cdn-blog.scorum.com"
+  account_name: "scorumblog"
+  account_key:  ""
+router:
+  max_request_size: 25000000
+nsqd_address: ""
+text_ru_key: ""

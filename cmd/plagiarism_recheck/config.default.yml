@@ -1,0 +1,4 @@
+db: "host=127.0.0.1 port=5432 user=readonly password=readonly dbname=blog sslmode=disable"
+sentry: "sentry-dsn"
+text_ru_key: ""
+limit: 50
